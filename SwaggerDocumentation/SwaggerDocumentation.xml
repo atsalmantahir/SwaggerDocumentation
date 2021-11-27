@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SwaggerDocumentation</name>
+    </assembly>
+    <members>
+        <member name="M:SwaggerDocumentation.Controllers.BooksController.PostBook(SwaggerDocumentation.Models.BookCreation)">
+            <summary>
+            Create a record of book
+            </summary>
+            <param name="bookCreation"></param>
+            <returns>ActionResult of book record</returns>
+            <remarks>
+            Sample request (this request creates the record of book) \
+            POST bookCreation \
+            [ \
+                { \
+                    "title": "Limitless", \
+                    "desciption": "Best selling book of all time" \
+                } \
+            ]
+            </remarks>
+        </member>
+        <member name="T:SwaggerDocumentation.Models.BookCreation">
+            <summary>
+            A book with Title and Description
+            </summary>
+        </member>
+        <member name="P:SwaggerDocumentation.Models.BookCreation.Title">
+            <summary>
+            Title of the book
+            </summary>
+        </member>
+        <member name="P:SwaggerDocumentation.Models.BookCreation.Description">
+            <summary>
+            Description of the book
+            </summary>
+        </member>
+    </members>
+</doc>

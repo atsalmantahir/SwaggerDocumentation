@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SwaggerDocumentation</name>
+    </assembly>
+    <members>
+        <member name="M:SwaggerDocumentation.Controllers.BooksController.PostBook(SwaggerDocumentation.Models.BookCreation)">
+            <summary>
+            Create a record of book
+            </summary>
+            <param name="bookCreation"></param>
+            <returns>Created book record</returns>
+        </member>
+        <member name="P:SwaggerDocumentation.Models.BookCreation.Title">
+            <summary>
+            Title of the book
+            </summary>
+        </member>
+        <member name="P:SwaggerDocumentation.Models.BookCreation.Description">
+            <summary>
+            Description of the book
+            </summary>
+        </member>
+    </members>
+</doc>
